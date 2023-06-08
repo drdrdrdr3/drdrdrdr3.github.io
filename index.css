@@ -1,0 +1,60 @@
+.wrap-content {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.left,
+.right {
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 15% max-content;
+}
+.right div{
+    width: 90%;
+    margin: auto;
+}
+.left{
+    position: sticky;
+}
+.center-text p {
+    padding: 0;
+}
+
+.navigation {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    overflow-y: scroll;
+
+}
+
+.option {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.mini-img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrap img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
